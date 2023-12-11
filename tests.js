@@ -86,8 +86,9 @@ describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
         //completa la asignación usando number y el comparador ===
-        const expresion = number === 20;
-        expect(expresion).to.equal(true)
+        const number2  = '20'; //"=" es un operador de asignacón
+        let expresion = number === number2;
+        expect(expresion).to.equal(false)
     })
 
     it("usando !==", () => {
