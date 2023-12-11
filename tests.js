@@ -32,7 +32,7 @@ describe("Números en Javascript", () => {
 
     it("Los números pueden ser enteros o decimales", () => {
         const n = 30;
-        expect(n).to.equal(30.64);
+        expect(n).to.equal(30);
     })
 
     it("Puedes utilizar ++ para autoincrementar un número en 1 unidad", () => {
