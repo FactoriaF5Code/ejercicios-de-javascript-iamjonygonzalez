@@ -402,7 +402,7 @@ describe("Ejemplos resueltos: Operaciones iterables", () => {
         // SOLUCIÓN ALTERNATIVA:
         // let condición = list.some( n => n < 0 );    
         
-        expect(condicion).to.equal(false);
+        expect(condicion).to.be.true;
     })
 })
 
@@ -423,7 +423,8 @@ describe("Operaciones iterables", () => {
         let list = ["Pikachu", "Charmander", "Magikarp"];
 
         // utiliza la función map para aplicar los números de la lista y guardar la nueva lista en result
-        let result = list.map(pokemon => '${pokemon}), te eligo a ti');
+        let result = list.map(pokemon => '${pokemon}, te eligo a ti');
+        
         expect(result).to.have.same.members([
             "Pikachu, te elijo a ti!",
             "Charmander, te elijo a ti!",
