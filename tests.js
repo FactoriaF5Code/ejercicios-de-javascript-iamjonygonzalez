@@ -107,7 +107,7 @@ describe("condicionales en javascript", () => {
         let result = "KO";
 
         // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/length
-        if (name.length === 6) {
+        if (name.length === 4) {
             result = "OK"
         }
 
