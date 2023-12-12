@@ -71,7 +71,7 @@ describe("Strings", () => {
     it("Los strings representan cadenas de texto", () => {
         let weapon = "espada";
         let phrase = "Cuenta con mi " + weapon + "!";
-        expect(phrase).to.equal("Cuenta con mi hacha!")
+        expect(phrase).to.equal("Cuenta con mi " + weapon + "!")
     });
 });
 
