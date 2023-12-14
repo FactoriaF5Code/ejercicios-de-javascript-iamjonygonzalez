@@ -291,7 +291,7 @@ describe("Colecciones en JS: Array", () => {
 
         // completa la definición que falta usando la propiedad length
         
-        expect(length).to.equal(4);
+        expect(list.length).to.equal(4);
     })
     it("Nos permiten acceder a cada elemento del array", () => {
 
