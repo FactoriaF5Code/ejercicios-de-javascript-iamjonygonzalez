@@ -241,7 +241,7 @@ describe("Funciones (II)", () => {
 
 
         // substituye "???" por el valor que tiene la variable "result"        
-        expect(result === "302").to.be.true;
+        expect(result === "1032").to.be.true;
     })
 
     it("Cuál es el resultado de invocar la función? (2)", () => {
@@ -250,7 +250,7 @@ describe("Funciones (II)", () => {
 
 
         // substituye "???" por el valor que tiene la variable "result"        
-        expect(result === "Hola, Cerebro y Pinky!").to.be.true;
+        expect(result === "Cerebro", "Pinky").to.be.true;
     })
 
     it("Cuál es el resultado de invocar la función? (3)", () => {
@@ -291,7 +291,7 @@ describe("Colecciones en JS: Array", () => {
 
         // completa la definición que falta usando la propiedad length
         
-        expect("???").to.equal(4);
+        expect(length).to.equal(4);
     })
     it("Nos permiten acceder a cada elemento del array", () => {
 
@@ -299,8 +299,8 @@ describe("Colecciones en JS: Array", () => {
 
         // sustituye "???" en cada caso para acceder al elemento correspondiente de la lista
 
-        expect("0").to.equal("Piña");
-        expect("3").to.equal("Melón");
+        expect(fruits[0]).to.equal("Piña");
+        expect(fruits[2]).to.equal("Fresa");
     })
     it("Nos permiten modificar cada elemento", () => {
 
