@@ -241,7 +241,7 @@ describe("Funciones (II)", () => {
 
 
         // substituye "???" por el valor que tiene la variable "result"        
-        expect(result === "1032").to.be.true;
+        expect(result === 26).to.be.true;
     })
 
     it("Cuál es el resultado de invocar la función? (2)", () => {
@@ -250,16 +250,16 @@ describe("Funciones (II)", () => {
 
 
         // substituye "???" por el valor que tiene la variable "result"        
-        expect(result === "Cerebro", "Pinky").to.be.true;
+        expect(result === "Son Pinky y Cerebro").to.be.true;
     })
 
     it("Cuál es el resultado de invocar la función? (3)", () => {
 
         // substituye "???" por el resultado en cada caso
-        expect(h("khaleesi mother of dragons breaker of chains") === "khaleesi mother of dragons breaker of chains").to.be.true;
-        expect(h("sarah") === "sarah").to.be.true;
-        expect(h("bob") === "bob").to.be.true;
-        expect(h("robertson") === "robertson").to.be.true;
+        expect(h("???") === "???").to.be.true;
+        expect(h("???") === "???").to.be.true;
+        expect(h("???") === "???").to.be.true;
+        expect(h("???") === "???").to.be.true;
     })
 
 })
