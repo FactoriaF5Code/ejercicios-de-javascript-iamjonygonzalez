@@ -402,7 +402,7 @@ describe("Operaciones iterables", () => {
     let list = ["Pikachu", "Charmander", "Magikarp"];
 
     // utiliza la función map para aplicar los números de la lista y guardar la nueva lista en result
-    let result = list.map((pokemon) => "${pokemon}, te elijo a ti!");
+    let result = list.map((x) => x + ', te elijo a ti!');
 
     expect(result).to.have.same.members([
       "Pikachu, te elijo a ti!",
