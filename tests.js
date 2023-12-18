@@ -232,7 +232,7 @@ describe("Funciones (II)", () => {
     let result = f(10, 30, 2);
 
     // substituye "???" por el valor que tiene la variable "result"
-    expect(result === "28").to.be.true;
+    expect(result === 28).to.be.true;
   });
 
   it("Cuál es el resultado de invocar la función? (2)", () => {
@@ -402,7 +402,7 @@ describe("Operaciones iterables", () => {
     let list = ["Pikachu", "Charmander", "Magikarp"];
 
     // utiliza la función map para aplicar los números de la lista y guardar la nueva lista en result
-    let result = list.map((pokemon) => "${pokemon}, te eligo a ti!");
+    let result = list.map((pokemon) => "${pokemon}, te elijo a ti!");
 
     expect(result).to.have.same.members([
       "Pikachu, te elijo a ti!",
